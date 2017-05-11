@@ -1,0 +1,38 @@
+
+/*#spree-header {*/
+/*  background: #c0c0aa; /* fallback for old browsers 
+    background: -webkit-linear-gradient(to left, #c0c0aa , #1ce); /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to left, #c0c0aa , #1ce); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+/*	background-size: cover;*/
+/*	margin-bottom: 20px;*/
+/*} */
+
+
+/*#spree-header {*/
+/*	background: #1c5c92 url(/assets/streak_800x366.png) center center;*/
+/*	background-size: cover;*/
+/*	margin-bottom: 20px;*/
+/*}*/
+
+#spree-header {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#67a063+0,4c6348+100,207cca+100,7db9e8+100 */
+background: #67a063; /* Old browsers */
+background: -moz-linear-gradient(left,  #67a063 0%, #4c6348 100%, #207cca 100%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #67a063 0%,#4c6348 100%,#207cca 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #67a063 0%,#4c6348 100%,#207cca 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67a063', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+#logo {
+	width: 15%;
+}
+
+#top-nav-bar {
+	float: right;
+}
+
+#spree-header #header {
+	padding: 0;
+	padding-top: 20px;
+}
+

@@ -50,3 +50,4 @@ group :development do
   gem 'spring'
 end
 
+gem 'spree_simple_sales', path: '../spree_simple_sales'
