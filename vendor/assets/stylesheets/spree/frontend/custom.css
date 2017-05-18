@@ -36,3 +36,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#67a063', end
 	padding-top: 20px;
 }
 
+
+/*label[for="order_bill_address_attributes_state"] {*/
+/*	display:none;*/
+/*}*/
+
