@@ -37,7 +37,7 @@
   </p>
   <p class="form-group" id=<%="#{address_id}country" %>>
     <%= form.label :country_id do %>
-      <%= Spree.t(:country) %><abbr class="required" title="required">*</abbr>
+      <%= Spree.t(:country_id) %><abbr class="required" title="required">*</abbr>
     <% end %>
     <span id=<%="#{address_id}country-selection" %>>
       <%= form.collection_select :country_id, available_countries, :id, :name, {}, {class: 'form-control required'} %>
