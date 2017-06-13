@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.3.0'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -52,8 +53,10 @@ group :development do
 end
 
 group :production do
-  # Use SQLite as the database for Active Record
+  # Use postgreSQL as the database for Active Record
   gem 'pg'
+  # enable your application to serve static assets and direct logging to stdout.
+  gem 'rails_12factor'
 end
 
 gem 'spree_simple_sales', path: '../spree_simple_sales'
