@@ -59,4 +59,4 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'spree_simple_sales', path: '/mystore/spree_simple_sales'
+gem 'spree_simple_sales', path: "../spree_simple_sales"
